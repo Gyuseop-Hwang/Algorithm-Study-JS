@@ -4,7 +4,7 @@ function hansuCounter(num) {
     let counter = 0;
     function hansuHelper(num) {
         if (num === 0) return;
-        if (String(num).length === 1) counter++;
+        if (String(num).length === 2) counter++;
         else {
             let candidate = String(num);
             var hansu = true;
